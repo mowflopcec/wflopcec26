@@ -1,8 +1,4 @@
-
-````markdown
-
-
-# Multi-Objective Offshore Wind Farm Layout Optimization (Mo-WFLOP)
+# Meta-Learning-Based Algorithm Selection for Multi-Objective Wind Farm Layout Optimization
 
 This repository contains the implementation, datasets and experimental outputs for a multi-objective wind farm layout optimization study. The project compares several multi-objective algorithms on the wind farm layout problem and builds meta-learning models that characterize and predict algorithm performance across instances.
 
@@ -12,12 +8,13 @@ Wind farm layout optimization involves multiple conflicting objectives and highl
 
 ## 📂 Repository Structure
 ```
-├── algorithms_raw_results/         # Raw outputs from multi-objective algorithms (COMOLSD, MOEAD, NSGA2, ...)
-├── metafeatures_raw/               # Extracted meta-features for each instance (many numbered instance folders)
-├── regression_metrics/             # Metrics, processed CSVs, and model outputs for regression analyses
-├── metadataset_final/              # Final meta-dataset: 90 datasets (one per walk-parameter configuration)
-├── correlation_matrix/             # Correlation analyses and visualizations between features and metrics
-└── algorithms_raw_results/         # Raw algorithm run outputs organized by algorithm
+├── algorithms_raw_results/  # Raw outputs from multi-objective algorithms (COMOLSD, MOEAD, NSGA2, ...)
+├── metafeatures_raw/        # Extracted meta-features for each instance (many numbered instance folders)
+├── regression_metrics/      # Metrics, processed CSVs, and model outputs for regression analyses
+├── metadataset_final/       # Final meta-dataset: 90 datasets (one per walk-parameter configuration)
+├── correlation_matrix/      # Correlation analyses and visualizations between features and metrics
+├── gap_spearman_tables/     # Tables with gap and Spearman correlation values for each feature and walk configuration
+└── source_code/             # Code that produced the results presented in the paper
 ```
 
 ## 👥 Authors
@@ -27,5 +24,3 @@ Wind farm layout optimization involves multiple conflicting objectives and highl
 ## 📧 Contact & Contribution
 
 - Questions or contributions: please open an issue or submit a pull request. Once the associated article is published, please cite it when using these data or code.
-
-````
