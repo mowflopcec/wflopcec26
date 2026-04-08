@@ -19,8 +19,12 @@ Wind farm layout optimization involves multiple conflicting objectives and highl
 
 ## 👥 Authors
 
-- Authors: To be identified (TBD). This README is prepared to accompany a research article describing the work.
+| Name | Affiliation | Contact |
+|------|-------------|---------| 
+|Gustavo J. N. Silva | Federal University of Bahia, Institute of Computing | gustavojorge080@gmail.com |
+|João G. Lofiego | Federal University of Bahia, Institute of Computing | joao.lofiego@ufba.br|
+|Islame F. C. Fernandes | Federal University of Bahia, Institute of Computing | islame.felipe@ufba.br|
 
-## 📧 Contact & Contribution
+## 📧 Contact
 
-- Questions or contributions: please open an issue or submit a pull request. Once the associated article is published, please cite it when using these data or code.
+- For questions, contact the lead authors: gustavojorge080@gmail.com and joao.lofiego@ufba.br.
